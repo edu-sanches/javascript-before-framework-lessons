@@ -22,3 +22,17 @@ const sum = values.reduce((accumulator, currentValue, index) => {
 },0 )
 
 console.log("RESULTADO DA SOMA FINAL", sum)
+
+// Exemplo que criei abaixo para praticar o reduce
+
+const values2 = [5, 10, 15, 20, 25]
+
+const result2 = values2.reduce((valorSomar, valorAtual, indice) => {
+    const operacao = valorSomar + valorAtual
+    console.log("O Valor a somar é", valorSomar)
+    console.log("O Valor atual é", valorAtual)
+    console.log("O valor somado é", operacao)
+    console.log("O índice é", indice)
+
+    return operacao
+}, 10)
