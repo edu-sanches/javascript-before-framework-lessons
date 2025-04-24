@@ -18,16 +18,16 @@ function asyncFunction() {
 
 console.log("Executando função assíncrona...")
 
-const response = asyncFunction()
-console.log(response)
+// const response = asyncFunction()
+// console.log(response)
 
-// asyncFunction()
-//     .then((response) => {
-//         console.log("SUCESSO:", response)
-//     })
-//     .catch((error) => {
-//         console.log("ERRO:", error)
-//     })
-//     .finally(() => {
-//         console.log("Fim da execução")
-//     })
+asyncFunction()
+    .then((response) => {
+        console.log("SUCESSO:", response)
+    })
+    .catch((error) => {
+        console.log("ERRO:", error)
+    })
+    .finally(() => {
+        console.log("Fim da execução")
+    })
