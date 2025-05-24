@@ -1,15 +1,36 @@
 {
-    "test": {
-        "name": "Hello world!"
+  "test": {
+    "name": "Hello world!"
+  },
+  "products": [
+    {
+      "id": "1",
+      "name": "Mouse",
+      "price": 150.25
     },
-    "products": [
-        { "id": 1, "name": "Mouse", "price": 150.25 },
-        { "id": 2, "name": "Teclado", "price": 90 },
-        { "id": 3, "name": "Monitor", "price": 500 }
-    ],
-    "users": [
-        { "id": 1, "name": "Eduardo" },
-        { "id": 2, "name": "Leane" },
-        { "id": 3, "name": "Joana" }
-    ]
+    {
+      "id": "2",
+      "name": "Teclado",
+      "price": 90
+    },
+    {
+      "id": "3",
+      "name": "Monitor",
+      "price": 500
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Eduardo"
+    },
+    {
+      "id": "2",
+      "name": "Leane"
+    },
+    {
+      "id": "3",
+      "name": "Joana"
+    }
+  ]
 }
